@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web Kenangan 8C</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+header{
+    padding:30px;
+    background:#111827;
+}
+h1{
+    font-size:50px;
+}
+button{
+    background:white;
+    color:black;
+    border:none;
+    padding:15px 25px;
+    margin:10px;
+    border-radius:12px;
+    font-size:20px;
+    cursor:pointer;
+}
+.section{display:none;padding:20px;}
+.active{display:block;}
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+    gap:20px;
+    max-width:1200px;
+    margin:auto;
+}
+.gallery img{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    border-radius:15px;
+    transition:.3s;
+}
+.gallery img:hover{
+    transform:scale(1.05);
+}
+video{
+    width:90%;
+    max-width:900px;
+    border-radius:15px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>WEB KENANGAN 8C</h1>
+<button onclick="showSection('foto')">Foto Foto 8C</button>
+<button onclick="showSection('video')">Video Kenangan</button>
+</header>
+
+<div id="foto" class="section active">
+<div class="gallery">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.20.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.22.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.23.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.25.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.26.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.29.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.31.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.32.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.34.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.36.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.38.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.39.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.44.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.46.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.47.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.49.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.50.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.51.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.52.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.53.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.54.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.55.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.56.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.58.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.49.59.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.00.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.02.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.04.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.06.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.07.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.08.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.10.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.11.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.13.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.14.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.16.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.18.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.20.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.21.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.23.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.25.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.27.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.29.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.32.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.34.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.36.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.38.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.40.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.41.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.43.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.45.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.51.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.52 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.52.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.53 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.53.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.54 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.54.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.55 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.55.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.56 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.56 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.56.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.57 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.57.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.58.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.59 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.50.59.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.00.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.01 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.01 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.01 (3).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.01.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.02 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.02 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.02 (3).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.02.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.03 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.03 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.03.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.04 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.04 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.04 (3).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.04.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.05 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.05 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.05.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.06 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.06 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.06.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.07 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.07 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.07 (3).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.07.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.08 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.08 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.08.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.09 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.09 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.09 (3).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.09.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.10 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.10 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.10 (3).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.10.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.11 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.11 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.11.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.13.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.15.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.18.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.20.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.23.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.26.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.29.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.32.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.34.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.37.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.39.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.41.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.44.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.47.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.49.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.53.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.55.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.57.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.51.59.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.01.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.03.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.07.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.10.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.12.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.13.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.15.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.17.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.19.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.20.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.22.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.23.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.25.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.27.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.28.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.30.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.31.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.32.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-02-18 at 15.52.36.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-03-06 at 18.57.30.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-03-09 at 16.32.28.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 12.37.19.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.32.27.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.32.28.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.35.32 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.35.32.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.35.40.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.35.41 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.35.41 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.35.41.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.37.18 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.37.18.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.37.19.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.37.20 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.37.20 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.37.20 (3).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.37.20.jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.37.21 (1).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.37.21 (2).jpeg" alt="foto">
+<img src="New folder (2)/WhatsApp Image 2026-06-04 at 19.37.21.jpeg" alt="foto">
+</div>
+</div>
+
+<div id="video" class="section">
+<video controls>
+<source src="0604.mp4" type="video/mp4">
+</video>
+</div>
+
+<script>
+function showSection(id){
+document.getElementById('foto').classList.remove('active');
+document.getElementById('video').classList.remove('active');
+document.getElementById(id).classList.add('active');
+}
+</script>
+</body>
+</html>
